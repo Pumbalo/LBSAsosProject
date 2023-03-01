@@ -28,7 +28,7 @@ const FetchAPI = (props) => {
         lang: "en-US",
       },
       headers: {
-        "x-rapidapi-key": "202b38878fmsh50dbc4c475e6d98p1c84bbjsnb086cc254106",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "asos2.p.rapidapi.com",
       },
     };

@@ -27,7 +27,7 @@ const FetchAPI = (props) => {
         currency: "USD",
       },
       headers: {
-        "x-rapidapi-key": "8dde4b0400mshe33118a17798972p174f30jsne26022450645",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "asos2.p.rapidapi.com",
       },
     };
