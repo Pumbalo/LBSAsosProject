@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progress {
+  animation-name: loading;
+  animation-duration: 1.5s;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+  z-index: 99;
+}
+
+.progress path {
+  animation-name: colorSwitch;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes colorSwitch {
+  0% {
+    fill: #6200ee;
+  }
+  100% {
+    fill: #03dac5;
+  }
+}

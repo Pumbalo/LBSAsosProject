@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  width: 268px;
+  margin: 20px 20px;
+}
+
+.input {
+  font-family: var(--font-family);
+  border-radius: 4px 4px 0 0;
+  background: var(--color-black-inputbg);
+  border: none;
+  outline: none;
+  font-size: var(--font-s);
+  font-weight: var(--font-regular);
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  padding-left: 48px;
+  position: relative;
+}
+
+.input::placeholder {
+  font-size: var(--font-s);
+  color: var(--color-black-input);
+  font-family: var(--font-family);
+  font-weight: var(--font-regular);
+}
+
+.input:focus {
+  background-color: var(--color-black-inputfocus);
+  border-bottom: 2px solid var(--color-purple);
+  caret-color: var(--color-purple);
+}
+
+.email {
+  position: absolute;
+  fill: var(--color-black-input);
+  left: 12px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.active {
+  fill: var(--color-purple);
+}

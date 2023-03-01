@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.grid_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+  margin-left: 10%;
+}
+
+.payment_container {
+  display: flex;
+  grid-gap: 10px;
+  margin-right: 10%;
+  margin-top: 50px;
+}

@@ -1,0 +1,22 @@
+.bar_container {
+  position: relative;
+  width: 260px;
+}
+
+.bar {
+  height: 4px;
+  width: 100%;
+  opacity: 0.24;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.indicator {
+  height: 4px;
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}

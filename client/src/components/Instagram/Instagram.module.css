@@ -1,0 +1,92 @@
+.container {
+  margin-top: 115px;
+}
+
+.text_content {
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.title {
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+.sub_title {
+  font-size: var(--font-xl - 8);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.colored {
+  color: var(--color-purple);
+}
+
+.latest_posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.post {
+  width: 296px;
+  height: 275px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all ease-in-out var(--transition-speed);
+  filter: blur(0px);
+}
+
+.description {
+  background-color: var(--color-black);
+  opacity: 0.8;
+  position: absolute;
+  bottom: -160px;
+  height: 160px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease-in-out var(--transition-speed);
+}
+
+.description_text {
+  color: var(--color-white);
+  font-size: 16px;
+  padding: 10px;
+}
+
+.post:hover .description {
+  bottom: 0;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.post:hover .img {
+  transform: scale(1.1);
+  filter: blur(1px);
+}
+
+.user_link {
+  text-decoration: none !important;
+  color: rgb(110, 207, 240) !important;
+}
+
+.user_link:hover {
+  opacity: 0.8;
+}

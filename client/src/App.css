@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+  overflow-x: hidden;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-shaded-black: #292929;
+  --color-purple: #6200ee;
+  --color-green: #03dac5;
+  --color-red: #b00020;
+  --color-error: #e74c3c;
+  --color-error-text: #f19990;
+  --color-warning: #fddd0e;
+  --color-warning-text: #fdeb76;
+  --color-success: #2ecc71;
+  --color-success-text: #88e2ae;
+  --navigation-background: #f0f0f0;
+
+  /* Colors Opacity */
+  --color-white-input: #ffffff60;
+  --color-white-inputbg: #fffff008;
+  --color-white-inputfocus: #fffff012;
+  --color-white-checkbox: #fffff038;
+  --color-black-input: #00000060;
+  --color-black-inputbg: #00000008;
+  --color-black-inputfocus: #00000012;
+  --color-black-checkbox: #00000038;
+
+  /* Font Size */
+  --font-xs: 16px;
+  --font-s: 24px;
+  --font-m: 28px;
+  --font-l: 34px;
+  --font-xl: 48px;
+
+  /* Font Weight*/
+  --font-light: 300;
+  --font-regular: 500;
+  --font-semibold: 700;
+  --font-bold: 800;
+
+  /* Font Family */
+  --font-family: "Muli", sans-serif;
+
+  /* Transition */
+  --transition-speed: 500ms;
+
+  /* Box Shadow */
+  --button-shadow: 0 4px 5px rgba(0, 0, 0, 0.14), 0 1px 10px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.2);
+  --dp14-shadow: 0 24px 38px rgba(0, 0, 0, 0.14), 0 9px 46px rgba(0, 0, 0, 0.12),
+    0 11px 15px rgba(0, 0, 0, 0.2);
+}

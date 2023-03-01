@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: var(--font-family);
+  margin-top: 100px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: var(--font-regular);
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.grid_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 46px;
+  margin-top: 25px;
+}

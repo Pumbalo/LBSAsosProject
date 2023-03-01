@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 20px 35px;
+}
+
+.grid_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cell_one {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 450px;
+  height: 450px;
+  background-image: url("./Images/Man.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cell_two {
+  grid-area: 1 / 2 / 3 / 3;
+  width: 450px;
+  height: 920px;
+  background-image: url("./Images/Women.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cell_three {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 450px;
+  height: 450px;
+  background-image: url("./Images/Sunglasses.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cell_four {
+  grid-area: 1 / 4 / 2 / 5;
+  width: 450px;
+  height: 450px;
+  background-image: url("./Images/Trending.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cell_five {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 450px;
+  height: 450px;
+  background-image: url("./Images/NewIn.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cell_six {
+  grid-area: 2 / 3 / 3 / 5;
+  width: 920px;
+  height: 450px;
+  background-image: url("./Images/Shoes.png");
+  background-position: center center;
+  background-size: cover;
+}

@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+}
+
+.input {
+  font-family: var(--font-family);
+  border-radius: 4px 4px 0 0;
+  background: rgba(0, 0, 0, 0.04);
+  border: none;
+  outline: none;
+  font-size: var(--font-s);
+  font-weight: var(--font-regular);
+  padding: 17px 0;
+  padding-left: 16px;
+  width: 100%;
+  position: relative;
+}
+
+.input::placeholder {
+  font-size: var(--font-s);
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font-family);
+  font-weight: var(--font-regular);
+}
+
+.input:focus {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-bottom: 2px solid var(--color-purple);
+  margin-bottom: -2px;
+  caret-color: var(--color-purple);
+}

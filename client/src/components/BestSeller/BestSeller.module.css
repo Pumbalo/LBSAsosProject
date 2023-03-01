@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.text_content {
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.title,
+.sub_title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-weight: var(--font-light);
+  font-size: var(--font-xl);
+  margin: 0;
+  padding: 0;
+}
+
+.sub_title {
+  font-weight: var(--font-light);
+  font-size: var(--font-s);
+  padding-top: 15px;
+  margin: 0;
+}
+
+.grid_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  grid-gap: 46px;
+}
